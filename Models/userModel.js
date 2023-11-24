@@ -21,12 +21,9 @@ const userShema=new schema(
         type:Number,
         required:true
        },
-       Gallery:{
-        type:[{
-            
-        }]
-       }
+    
+    }
        
-    });
+    );
   
 module.exports =mongoose.model("user",userShema) 
