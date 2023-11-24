@@ -16,7 +16,7 @@ const corsOptions ={ origin:'*', credentials:true, //access-control-allow-creden
 
 
 //create port
-const PORT=process.env.PORT || 7666
+const PORT=process.env.PORT
 //create server
 app.listen(PORT,(error)=>{
     error?
